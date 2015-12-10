@@ -55,3 +55,25 @@ p {
 footer.page-footer {
   margin: 0;
 }
+#home{
+  padding-top: 13%;
+  padding-bottom: 13%;
+  margin-bottom: 50px;
+}
+#logo{
+  color:#669999;
+  font-family: 'Vast Shadow', cursive;
+}
+#what-do{
+  color: black;
+  font-family: 'Codystar', cursive;
+}
+.mission{
+  color:black;
+  font-family:'Wire One'; 
+  font-decoration:bold;
+}
+#text1{
+  color:black;
+
+}
