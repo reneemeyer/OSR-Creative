@@ -70,10 +70,13 @@ footer.page-footer {
 }
 .mission{
   color:black;
-  font-family:'Wire One'; 
+  font-family:'Wire One';
   font-decoration:bold;
 }
 #text1{
   color:black;
-
+}
+#arrow{
+  z-index: -1;
+  position:relative
 }
