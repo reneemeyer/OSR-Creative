@@ -79,7 +79,12 @@ footer.page-footer {
 #arrow{
   z-index: -1;
   position:absolute;
+
 }
 .lower-opacity {
     opacity:0.4;
+}
+#cards{
+  vertical-align: center;
+  text-align: center;
 }
