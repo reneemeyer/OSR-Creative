@@ -78,5 +78,8 @@ footer.page-footer {
 }
 #arrow{
   z-index: -1;
-  position:relative
+  position:absolute;
+}
+.lower-opacity {
+    opacity:0.4;
 }
