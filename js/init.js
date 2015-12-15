@@ -11,7 +11,8 @@ $(function(){
      }
     });
     var options = [
-    {selector: '#staggered-test', offset: 200, callback: 'Materialize.showStaggeredList("#staggered-test")'  },
+    {selector: '#staggered-test', offset: 300, callback: 'Materialize.showStaggeredList("#staggered-test")'  },
+    {selector: '#staggered-test2', offset: 350, callback: 'Materialize.showStaggeredList("#staggered-test2")'  }
     ];
     Materialize.scrollFire(options);
 
