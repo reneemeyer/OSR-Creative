@@ -64,13 +64,21 @@ footer.page-footer {
 /*#gall{
  z-index: -2;
 }*/
+
 #web{
   opacity: .3;
 }
-#logo{
+.logo{
   color:#669999;
   font-family: 'Vast Shadow', cursive;
-
+}
+.osrH{
+  color: #2A4040;
+  font-family: 'Vast Shadow', cursive;
+}
+#AR{
+  width: 70px;
+  height: 67px;
 }
 #what-do{
   color: black;
@@ -100,17 +108,40 @@ footer.page-footer {
 }
 #men{
   z-index: 2;
+  margin-top: -100px;
+  height: auto;
+  margin-bottom: -100px;
+  padding: 0px;
 }
-#NBar{
+.gall{
+  display: none;
+}
+
+
+#look{ 
+  font-size: 20px;
+ }
+ #two2{
+  background-color: #d3e2d6;
+ }
+.NBar{
     color: black;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
-
+.gr2{
+  background-color: #fbfbe0; 
+}
 #cards{
   vertical-align: center;
   text-align: center;
+}
+#miss{
+  background-color: #EFFFE1;
+}
+#light{
+  background-color: #d9e4e7;
 }
 #stag{
   opacity: 0;
@@ -127,7 +158,7 @@ footer.page-footer {
 body { font-family: sans-serif; }
 
 .gallery {
-  background: white;
+  background: #fbfbe0;
 }
 
 .gallery-cell {
@@ -206,3 +237,18 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:disabled {
   display: none;
 }
+
+#foot{
+  background-color: #34333e;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
