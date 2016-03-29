@@ -1,3 +1,5 @@
+'use strict';
+
 $(function(){
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
@@ -24,8 +26,13 @@ $(function(){
         $('#three').addClass('gall');
         $('#pro').addClass('gall');
         $('#contact').addClass('gall');
+        $('#four').addClass('gall');
         $('#AR').removeClass('gall');
-
+        $('#hippo').addClass('gall');
+        $('#mission').removeClass('gall');
+        $('#serv').removeClass('gall');
+        $('#con').removeClass('gall');
+        $('#name').removeClass('gall');
     });
    $('#mission').click(function () {
        event.preventDefault();
@@ -34,7 +41,13 @@ $(function(){
        $('#three').addClass('gall');
        $('#pro').addClass('gall');
        $('#contact').addClass('gall');
+       $('#four').addClass('gall');
        $('#AR').removeClass('gall');
+       $('#mission').addClass('gall');
+       $('#serv').removeClass('gall');
+        $('#con').removeClass('gall');
+        $('#name').removeClass('gall');
+        $('#hippo').removeClass('gall');
    });
    $('#serv').click(function(){
     event.preventDefault();
@@ -43,16 +56,24 @@ $(function(){
     $('#two').addClass('gall');
     $('#pro').addClass('gall');
     $('#contact').addClass('gall');
+    $('#four').addClass('gall');
     $('#AR').removeClass('gall');
+    $('#serv').addClass('gall');
+    $('#mission').removeClass('gall');
+    $('#con').removeClass('gall');
+    $('#name').removeClass('gall');
+    $('#hippo').removeClass('gall');
    });
-   $('#here').click(function(){
+   $('#click').click(function(){
     event.preventDefault();
     $('#pro').removeClass('gall');
     $('#three').addClass('gall');
     $('two').addClass('gall');
     $('#one').addClass('gall');
     $('#contact').addClass('gall');
+    $('#four').addClass('gall');
     $('#AR').removeClass('gall');
+    $('#con').removeClass('gall');
    });
    $('#con').click(function(){
     event.preventDefault();
@@ -61,23 +82,32 @@ $(function(){
     $('two').addClass('gall');
     $('#one').addClass('gall');
     $('#AR').removeClass('gall');
+    $('#four').addClass('gall');
+    $('#con').addClass('gall');
+    $('#mission').removeClass('gall');
+    $('#serv').removeClass('gall');
+    $('#name').removeClass('gall');
+    $('#hippo').removeClass('gall');
+   });
+   $('#name').click(function(){
+    event.preventDefault();
+    $('#four').removeClass('gall');
+    $('#three').addClass('gall');
+    $('two').addClass('gall');
+    $('#one').addClass('gall');
+    $('#AR').removeClass('gall');
+    $('#contact').addClass('gall');
+    $('#name').addClass('gall');
+    $('#con').removeClass('gall');
+    $('#mission').removeClass('gall');
+    $('#serv').removeClass('gall');
+    $('#hippo').removeClass('gall');
    });
    $('.main-carousel').flickity({
     cellAlign: 'left',
     contain: true
     });
-   $('#change').hover(
-    function(){
-        $('#con').removeClass('gall');
-        $('#change').removeClass('logo');
-        $('#change').addClass('osrH');
 
-    },
-    function(){
-        $('#change').removeClass('osrH');
-        $('#change').addClass('logo');
-    }
-    );
 
 
 }); // end of document ready// end of jQuery name space
