@@ -19,22 +19,22 @@ $(function(){
     ];
     Materialize.scrollFire(options);
    
-   $('#hippo').click(function(){
+   $('.hippo').click(function(){
         event.preventDefault();
         $('#one').removeClass('gall');
-        $('two').addClass('gall');
+        $('#two').addClass('gall');
         $('#three').addClass('gall');
         $('#pro').addClass('gall');
         $('#contact').addClass('gall');
         $('#four').addClass('gall');
         $('#AR').removeClass('gall');
-        $('#hippo').addClass('gall');
-        $('#mission').removeClass('gall');
-        $('#serv').removeClass('gall');
-        $('#con').removeClass('gall');
-        $('#name').removeClass('gall');
+        $('.hippo').addClass('gall');
+        $('.mission2').removeClass('gall');
+        $('.serv').removeClass('gall');
+        $('.con').removeClass('gall');
+        $('.name').removeClass('gall');
     });
-   $('#mission').click(function () {
+   $('.mission2').click(function () {
        event.preventDefault();
        $('#two').removeClass('gall');
        $('#one').addClass('gall');
@@ -43,13 +43,13 @@ $(function(){
        $('#contact').addClass('gall');
        $('#four').addClass('gall');
        $('#AR').removeClass('gall');
-       $('#mission').addClass('gall');
-       $('#serv').removeClass('gall');
-        $('#con').removeClass('gall');
-        $('#name').removeClass('gall');
-        $('#hippo').removeClass('gall');
+       $('.mission2').addClass('gall');
+       $('.serv').removeClass('gall');
+        $('.con').removeClass('gall');
+        $('.name').removeClass('gall');
+        $('.hippo').removeClass('gall');
    });
-   $('#serv').click(function(){
+   $('.serv').click(function(){
     event.preventDefault();
     $('#three').removeClass('gall');
     $('#one').addClass('gall');
@@ -58,11 +58,11 @@ $(function(){
     $('#contact').addClass('gall');
     $('#four').addClass('gall');
     $('#AR').removeClass('gall');
-    $('#serv').addClass('gall');
-    $('#mission').removeClass('gall');
-    $('#con').removeClass('gall');
-    $('#name').removeClass('gall');
-    $('#hippo').removeClass('gall');
+    $('.serv').addClass('gall');
+    $('.mission2').removeClass('gall');
+    $('.con').removeClass('gall');
+    $('.name').removeClass('gall');
+    $('.hippo').removeClass('gall');
    });
    $('#click').click(function(){
     event.preventDefault();
@@ -73,9 +73,9 @@ $(function(){
     $('#contact').addClass('gall');
     $('#four').addClass('gall');
     $('#AR').removeClass('gall');
-    $('#con').removeClass('gall');
+    $('.con').removeClass('gall');
    });
-   $('#con').click(function(){
+   $('.con').click(function(){
     event.preventDefault();
     $('#contact').removeClass('gall');
     $('#three').addClass('gall');
@@ -83,13 +83,13 @@ $(function(){
     $('#one').addClass('gall');
     $('#AR').removeClass('gall');
     $('#four').addClass('gall');
-    $('#con').addClass('gall');
-    $('#mission').removeClass('gall');
-    $('#serv').removeClass('gall');
-    $('#name').removeClass('gall');
-    $('#hippo').removeClass('gall');
+    $('.con').addClass('gall');
+    $('.mission2').removeClass('gall');
+    $('.serv').removeClass('gall');
+    $('.name').removeClass('gall');
+    $('.hippo').removeClass('gall');
    });
-   $('#name').click(function(){
+   $('.name').click(function(){
     event.preventDefault();
     $('#four').removeClass('gall');
     $('#three').addClass('gall');
@@ -97,11 +97,11 @@ $(function(){
     $('#one').addClass('gall');
     $('#AR').removeClass('gall');
     $('#contact').addClass('gall');
-    $('#name').addClass('gall');
-    $('#con').removeClass('gall');
-    $('#mission').removeClass('gall');
-    $('#serv').removeClass('gall');
-    $('#hippo').removeClass('gall');
+    $('.name').addClass('gall');
+    $('.con').removeClass('gall');
+    $('.mission2').removeClass('gall');
+    $('.serv').removeClass('gall');
+    $('.hippo').removeClass('gall');
    });
    $('.main-carousel').flickity({
     cellAlign: 'left',
